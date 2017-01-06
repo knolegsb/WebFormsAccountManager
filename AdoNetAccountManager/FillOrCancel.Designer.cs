@@ -64,6 +64,7 @@
             this.btnFindByOrderID.TabIndex = 2;
             this.btnFindByOrderID.Text = "Find Order";
             this.btnFindByOrderID.UseVisualStyleBackColor = true;
+            this.btnFindByOrderID.Click += new System.EventHandler(this.btnFindByOrderID_Click);
             // 
             // label2
             // 
@@ -98,6 +99,7 @@
             this.btnCancelOrder.TabIndex = 6;
             this.btnCancelOrder.Text = "Cancel Order";
             this.btnCancelOrder.UseVisualStyleBackColor = true;
+            this.btnCancelOrder.Click += new System.EventHandler(this.btnCancelOrder_Click);
             // 
             // btnFillOrder
             // 
@@ -107,6 +109,7 @@
             this.btnFillOrder.TabIndex = 7;
             this.btnFillOrder.Text = "Fill Order";
             this.btnFillOrder.UseVisualStyleBackColor = true;
+            this.btnFillOrder.Click += new System.EventHandler(this.btnFillOrder_Click);
             // 
             // btnFinishUpdates
             // 
@@ -116,6 +119,7 @@
             this.btnFinishUpdates.TabIndex = 8;
             this.btnFinishUpdates.Text = "Finish";
             this.btnFinishUpdates.UseVisualStyleBackColor = true;
+            this.btnFinishUpdates.Click += new System.EventHandler(this.btnFinishUpdates_Click);
             // 
             // FillOrCancel
             // 
