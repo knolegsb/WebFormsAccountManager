@@ -12,9 +12,13 @@ namespace AdoNetAccountManager
 {
     public partial class FillOrCancel : Form
     {
+        private int parsedOrderID;
+        string connStr = AdoNetAccountManager.Utility.GetConnectionString();
         public FillOrCancel()
         {
             InitializeComponent();
         }
+
+
     }
 }
